@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1805" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1805" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1805" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/is_not_online_view.xml" value="0.1805" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/is_online_view.xml" value="0.1805" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/drawable/view_back.xml" value="0.1805" />
         <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/layout/activity_main.xml" value="0.1611842105263158" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/layout/activity_user.xml" value="0.1730263157894737" />
         <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/layout/item_layout.xml" value="0.1611842105263158" />
+        <entry key="..\:/Users/Tasks/TelegramAnimation/app/src/main/res/layout/item_view_layout.xml" value="0.1730263157894737" />
       </map>
     </option>
   </component>

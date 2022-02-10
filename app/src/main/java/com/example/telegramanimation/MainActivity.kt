@@ -1,8 +1,10 @@
 package com.example.telegramanimation
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
@@ -20,7 +22,12 @@ class MainActivity : AppCompatActivity() {
 
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         val dots: WormDotsIndicator = findViewById(R.id.dots)
+        val startText: TextView = findViewById(R.id.start_text_main)
         lottieAnim = findViewById(R.id.lottie_anim)
+        startText.setOnClickListener {
+            intent()
+            finish()
+        }
         val titles = listOf(
             "Telegram X",
             "Fast",
@@ -82,5 +89,9 @@ class MainActivity : AppCompatActivity() {
 
             override fun onPageScrollStateChanged(state: Int) {}
         })
+    }
+    private fun intent() {
+        val intent = Intent(this,UserActivity::class.java)
+        startActivity(intent)
     }
 }

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TelegramAnimation</string>
     <string name="start_messaging">Start Messaging</string>
+    <string name="_2_52">2:52</string>
+    <string name="todo">todo</string>
+    <string name="telegram">Telegram</string>
 </resources>
